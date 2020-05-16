@@ -9,6 +9,9 @@
     "start": "node server.js",
     "start:watch": "nodemon server.js"
   },
+  "globals": {
+    "document": true
+  },
   "jest": {
     "testEnvironment": "node"
   },
